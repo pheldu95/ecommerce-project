@@ -1,5 +1,5 @@
 export default function Store() {
   return (
-    <div className="bg-grey text-green">Store</div>
+    <div className="bg-black text-white">Store</div>
   )
 }
