@@ -10,7 +10,7 @@ export default function ProductCard({ product }: Props) {
   return (
     <div className="bg-yellow-300 h-full border-red-500 border-1">
       <div className="bg-blue-300 w-[80%] h-[70%] mx-auto mt-4 rounded-md">
-        <img src="/src/assets/chair.png" className="h-50" />
+        <img src="/src/assets/chair.png" className="scale-80 hover:scale-100 cursor-pointer transform transition duration-300 ease-out" />
       </div>
       <div className="w-[75%] mx-auto mt-2">
         <div className="flex">
