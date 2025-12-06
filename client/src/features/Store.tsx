@@ -6,9 +6,15 @@ export default function Store() {
       <div className="w-[30%] bg-red-300">
         sidebar
       </div>
-      <div className="w-[60%] bg-green-600">
-        <span>Products</span>
+      <div className="w-[70%] bg-green-600">
+        <div className='flex justify-between'>
+          <div className="mx-2">Items 1-12</div>
+          <div className="mx-2">Sort by: Popular</div>
+        </div>
         <ProductGrid />
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full cursor-pointer my-3">
+          Load more
+        </button>
       </div>
     </div>
   )
