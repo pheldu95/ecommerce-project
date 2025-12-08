@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function SearchBar() {
     return (
-        <div className="relative">
+        <div className="relative w-100">
             <input
                 className="appearance-none border-2 pl-10 border-gray-300 
                 hover:border-gray-400 transition-colors rounded-md w-full 

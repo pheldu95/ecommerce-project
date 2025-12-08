@@ -11,7 +11,7 @@ export default function ProductGrid() {
 );
 
   return (
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-4">
         {products.map((product) => (
             <ProductCard product={product}/>
         ))}

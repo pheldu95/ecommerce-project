@@ -3,11 +3,11 @@ import StoreSidebar from "./sidebar/StoreSidebar";
 
 export default function Store() {
   return (
-    <div className="justify-center w-fill flex">
+    <div className="justify-center w-[80%] flex mx-auto">
       <StoreSidebar />
       <div className="w-[80%] bg-green-600">
         <div className='flex justify-between'>
-          <div className="mx-2">Items 1-12</div>
+          <div className="mx-2">Items 1-13</div>
           <div className="mx-2">Sort by: Popular</div>
         </div>
         <ProductGrid />
